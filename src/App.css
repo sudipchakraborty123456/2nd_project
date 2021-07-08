@@ -1,38 +1,76 @@
-.App {
+*{
+  margin:0;
+  padding:0;
+}
+.typeArea{
+    /* margin:30px; */
+    text-align:center;
+    /* height: 50%;
+    width:80%; */
+    display: inline-block;
+    
+}
+.restartBtn{
+}
+html,body{
+  background-color:rgb(41, 241, 195);
+  height: 100%;
+  width: 100%;
+  margin:0;
+  
+}
+.heading{
+  color: rgb(46, 49, 49);
+  font-family: "Sofia", sans-serif;
+  margin-top: 3%;
+  font-size: 61px;
+  height: 10%;
+  margin-bottom: 2%;;
+}
+.mainDiv{
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.66);
+  background-color: rgb(35, 203, 167);
+  border-radius: 10px;
+  height: 76%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  
+}
+.input{
+  /* width: 80%;
+  height: 40%; */
+  display: inline-block;
+  border: 1px solid black;
+  padding-top: 24px;
+  font-size: 20px;
+  width: 100%;
+  margin-top:10px;
+  border-radius: 10px;
+}
+.buttomSection{
+  /* width: 80%; */
+  height:10%;
+  width:80%;
+  padding:16px;
+}
+.wpm{
+  display: inline-block;
+  
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.mainTop{
+  height: 45%;
+  width:80%;
+}
+.mainButtom{
+  height:45%;
+  width:80%;
 }
